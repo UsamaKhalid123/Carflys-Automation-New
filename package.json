@@ -16,15 +16,20 @@
   },
   "dependencies": {
     "director": "1.2.8",
+    "file-upload": "0.0.0",
     "http-server": "0.12.3",
+    "mocha": "10.2.0",
+    "mocha-teamcity-reporter": "4.2.0",
     "react": "0.13.3",
     "todomvc-app-css": "2.3.0",
     "todomvc-common": "cypress-io/todomvc-common#88b7c6359ad4a5097312d8b2a21dd539ce9f4446"
   },
   "devDependencies": {
     "@bahmutov/cy-grep": "1.9.17",
+    "@faker-js/faker": "8.2.0",
     "cypress": "13.5.0",
     "cypress-expect": "2.5.3",
+    "cypress-file-upload": "5.0.8",
     "find-cypress-specs": "1.37.0",
     "prettier": "2.2.1",
     "start-server-and-test": "1.12.1",
