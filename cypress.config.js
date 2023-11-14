@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   fixturesFolder: false,
-  projectId: '4agux9',
+  projectId: 'vqtkby',
   video: false,
   env: {
     grepFilterSpecs: true,
@@ -21,6 +21,6 @@ module.exports = defineConfig({
       return config
     },
     baseUrl: 'http://localhost:8888',
-    specPattern: 'cypress/e2e/**/*spec.js',
+    specPattern: 'cypress/e2e/**/*.js',
   },
 })
