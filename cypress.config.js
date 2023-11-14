@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   fixturesFolder: false,
-  projectId: '4agux9',
+  projectId: 'vqtkby',
   video: false,
   env: {
     grepFilterSpecs: true,
