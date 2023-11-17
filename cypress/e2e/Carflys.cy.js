@@ -40,58 +40,58 @@ describe('Carflys Website Test', function () {
         cy.contains("Login").click()
         login2()
     })
-    it.only("Login With Invalid Password", ()=>{
+    it("Login With Invalid Password", ()=>{
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         Invalidloginwithpass()
     })
    
-    it('Forget Button', () => {
+    it.skip('Forget Button', () => {
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         forget()
     })
 
-    it("2.1 Add User", () =>{
+    it.skip("2.1 Add User", () =>{
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         login2()
         addUser()
     })
-    it("3. View Dealership", () =>{
+    it.skip("3. View Dealership", () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         Viewdealership()
     })
 
-    it("4.1 Add Vehicle", () =>{
+    it.skip("4.1 Add Vehicle", () =>{
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         login()
         addvehicle()
     })
 
-    it("5. View Services Check Editing Data", () =>{
+    it.skip("5. View Services Check Editing Data", () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         ViewServices()
     })
 
-    it("6.1 Add Warranty", () =>{
+    it.skip("6.1 Add Warranty", () =>{
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         login()
         addWaranty()
     })
-    it("7. View Order" , () =>{
+    it.skip("7. View Order" , () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         vieworder()
     })
-    it("8. Leads", () =>{
+    it.skip("8. Leads", () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
@@ -104,34 +104,34 @@ describe('Carflys Website Test', function () {
     //     financial()
         
     // })
-    it("10. Payment", () =>{
+    it.skip("10. Payment", () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         payment()
     })
 
-    it("11.1Add Revenue " , () =>{
+    it.skip("11.1Add Revenue " , () =>{
        cy.visit("https://carflys-frontend-new-dev.vercel.app/")
        cy.contains("Login").click()
        login()
        addRevenue()
        //cy.wait(10* second)
     })
-    it("11.3 Add Expense " , () =>{
+    it.skip("11.3 Add Expense " , () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         addExpense()
      })
 
-     it("13.1 Add Review " , () =>{
+     it.skip("13.1 Add Review " , () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
         addReview()
      })
-     it("14.1 Add Complaint " , () =>{
+     it.skip("14.1 Add Complaint " , () =>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
         login()
@@ -141,7 +141,7 @@ describe('Carflys Website Test', function () {
     it("Logout Button", ()=>{
         cy.visit("https://carflys-frontend-new-dev.vercel.app/")
         cy.contains("Login").click()
-        login()
+        login2()
         logout() 
 
     })
