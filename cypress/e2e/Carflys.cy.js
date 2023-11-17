@@ -24,9 +24,9 @@ describe('Carflys Website Test', function () {
         cy.visit('https://carflys-frontend-new-dev.vercel.app/')
         cy.contains("Login").click()
         signup()
-        cy.wait(3000)
+        cy.wait(5000)
         login()
-        cy.wait(3000)
+        cy.wait(5000)
         login2()
     })
 
